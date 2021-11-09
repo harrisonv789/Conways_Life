@@ -152,6 +152,6 @@ class Grid:
                 output += "*" if self.grid[y][x]() else " "
             output += "|\n"
 
-        output += "+" + ("-" * (self.width)) + "+"
+        output += "+" + ("-" * (self.width)) + "+\n"
 
         return output
